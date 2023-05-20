@@ -39,6 +39,10 @@ h1, h2, h3, h4, h5,
 .h1, .h2, .h3, .h4, .h5 {
   font-family: "Rubik", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
+.card-img-top{
+  height: 220px;
+  object-fit: cover;
+}
 
 .border-2 {
   border-width: 2px;
@@ -2408,7 +2412,11 @@ h1, h2, h3, h4, h5,
 }
 
 .typed-words {
-  color: #646E54ff;
+  color: rgb(126, 137, 108);
+}
+.carousel-control-prev, .carousel-control-next{
+  background-color:transparent;
+  border: none;
 }
 
 .comment-form-wrap {
